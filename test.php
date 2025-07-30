@@ -14,4 +14,16 @@ echo ($age >= 18) ? "Adult" : "Minor";
 
 
 
+$n= 3;
+
+for($i=$n, $factorial=1; $i>1; $i--){
+    $factorial = $factorial * $i ;
+
+}
+
+printf("Factorial %d is %d",$n,$factorial);
+
+
+
+
 ?>

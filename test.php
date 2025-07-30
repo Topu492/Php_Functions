@@ -5,4 +5,13 @@
 define ('PI','123');
 echo "My Value ". PI;
 
+
+// Ternary Operator in PHP  (condition) ? value_if_true : value_if_false;
+
+$age = 20;
+
+echo ($age >= 18) ? "Adult" : "Minor";
+
+
+
 ?>
